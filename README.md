@@ -84,7 +84,7 @@ MyAppReact contient :
 
 \-Jenkinsfile à la racine automatise 4 étapes : Build, Push, Deploy, Test
 
-\-Job Jenkins : tp4-mern 
+\-Job Jenkins : tp4-mern
 
 
 
@@ -109,4 +109,8 @@ MyAppReact contient :
 &#x20;                   captures/jenkins\_console.png
 
 \-Docker Hub : captures/dockerhub.png
+
+\-Docker desktop : captures/docker\_desktop\_images
+
+captures/docker\_desktop\_containers
 
