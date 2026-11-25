@@ -4,27 +4,29 @@ TP4 : Docker et Docker Compose (application MERN)
 
 1.Liens :
 
-GitHub : https://github.com/sondossoua123-ctrl/MyAppReact
+\-GitHub : https://github.com/sondossoua123-ctrl/MyAppReact
 
-Docker Hub (serveur) : https://hub.docker.com/r/sondossoua/mern-server
+\-Docker Hub (serveur) : https://hub.docker.com/r/sondossoua/mern-server
 
-Docker Hub (client) : https://hub.docker.com/r/sondossoua/mern-client
+\-Docker Hub (client) : https://hub.docker.com/r/sondossoua/mern-client
 
 
 
-2.Structure de projet : 
+2.Structure de projet :
 
 MyAppReact contient :
 
-client (React + Vite, Dockerfile)
+\-client (React + Vite, Dockerfile)
 
-server (Express, Dockerfile)
+\-server (Express, Dockerfile)
 
-captures
+\-captures
 
-docker-compose.yml
+\-docker-compose.yml
 
-README.md 
+\-README.md
+
+\-Jenkinsfile
 
 
 
@@ -76,11 +78,35 @@ README.md
 
 
 
-4\. Tests : 
-
-Client : http://localhost:3000
-
-API : http://localhost:9000/api/health
 
 
+3.8 Pipeline Jenkins :
+
+\-Jenkinsfile à la racine automatise 4 étapes : Build, Push, Deploy, Test
+
+\-Job Jenkins : tp4-mern 
+
+
+
+4\. Tests :
+
+\-Client : http://localhost:3000
+
+\-API : http://localhost:9000/api/health
+
+
+
+5\. Captures d'écran :
+
+
+
+\-Images Docker : captures/image.png
+
+\-Conteneurs en cours d'exécution : captures/ps.png
+
+\-Pipeline Jenkins : captures/jenkins.png
+
+&#x20;                   captures/jenkins\_console.png
+
+\-Docker Hub : captures/dockerhub.png
 
