@@ -25,7 +25,7 @@ pipeline {
     stage('Deploy') {
       steps {
         bat "docker rm -f client server mongodb"
-        bat "docker compose up --build -d"
+        bat "docker-compose up --build -d"
       }
     }
     stage('Test') {
